@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMga/qsEoG0q+iP8tSIpU3AAAAAACAAAAAAAQZgAAAAEAACAAAAD2sNN/6dayCFBo2QBuSZvSjaolNDgI7uVA1LOpzPfLTAAAAAAOgAAAAAIAACAAAAAXsiTi119z5kkg9WtlIQvPDZ2SanVw6lkHBI5VqxPXP4AAAAAW2iNXdcmoXIovUr1/m2sGzWprlx1t3VmCOhIjlnGLbr2r3i5IrV+uHqXdZw+e+w+jY0hYvGyIbu4dA2RgMw58ZCgdjNyf/DXRpKVjQoo9euz7o583UJt5MfnuOk5M4nvf4RDery8yuYjOmg056Z5oHpsRNe1t2uGfRbvKoedMTkAAAACK6P7XNeItph8RQ0PEd4GOU8mloZ6ZtBNP2WkpV+pU2iWhg6ufeSNKgsxT+652+f7Vb/UnVxEcgjXaczlM8jUL</EncryptedPassword>
+    <_NewBackgroundProfile>True</_NewBackgroundProfile>
+    <_PublishTargetUrl>ftp://waws-prod-bn1-001.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/01-particle-background.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/02-text-slider.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/03-image-background.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/04-video-background.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/05-gardient-background.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/06-solid-background.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/07-text-rotate-version.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/08-text-type-version.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/blog-full-width.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/blog-left-sidebar.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/blog-right-sidebar.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/blog-single.html">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/css/assets/animate.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/assets/bootstrap.min.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/assets/font-awesome.min.css">
+      <publishTime>09/06/2017 15:28:27</publishTime>
+    </File>
+    <File Include="assets/css/assets/jquery.mb.YTPlayer.min.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/assets/magnific-popup.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/assets/normalize.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/assets/owl.carousel.min.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/assets/responsive.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/colors/brown.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/colors/default-blue.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/colors/light-green.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/colors/purple.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/colors/turquoise.css">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/css/colors/yellow.css">
+      <publishTime>09/08/2017 09:31:24</publishTime>
+    </File>
+    <File Include="assets/css/style.css">
+      <publishTime>09/08/2017 09:31:17</publishTime>
+    </File>
+    <File Include="assets/documents/jessicadean1.pdf">
+      <publishTime>09/07/2017 10:32:06</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/05/2017 16:13:58</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="assets/images/1.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/2.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/3.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/636057396146371711-555660208_11.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/applePre.gif">
+      <publishTime>09/08/2017 09:27:38</publishTime>
+    </File>
+    <File Include="assets/images/avatar.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog-post01.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog-post02.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog-post03.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog-post04.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog01.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog02.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/blog03.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/client01.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/client02.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/client03.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/client04.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/client05.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/client06.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/close.png">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/favicon.ico">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/favicon4.ico">
+      <publishTime>09/08/2017 11:02:27</publishTime>
+    </File>
+    <File Include="assets/images/girl-profile.png">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/girl-profile01.png">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/Girl-working-in-Office-300x214.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/headshot300.png">
+      <publishTime>09/07/2017 11:22:50</publishTime>
+    </File>
+    <File Include="assets/images/headshot500.png">
+      <publishTime>09/07/2017 23:06:15</publishTime>
+    </File>
+    <File Include="assets/images/intro-bg.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/intro-bg02.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/intro-bg03.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/portfolio3.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/preloader.gif">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/profile01.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/profile011.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/profile02.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/profile03.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/profile1.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/sflower.jpg">
+      <publishTime>09/06/2017 10:17:00</publishTime>
+    </File>
+    <File Include="assets/images/shopapp600by425.png">
+      <publishTime>09/07/2017 16:10:20</publishTime>
+    </File>
+    <File Include="assets/images/sidenav-img.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/sidenav-img02.png">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/sidenav-img03.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/wichita.jpg">
+      <publishTime>09/07/2017 21:37:44</publishTime>
+    </File>
+    <File Include="assets/images/work01.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/work02.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/work03.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/work04.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/images/work05.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/work06.jpg">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/images/work07.jpg">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/js/assets/bootstrap.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.counterup.min.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.filterizr.js">
+      <publishTime>09/07/2017 15:03:52</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.filterizr.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.magnific-popup.js">
+      <publishTime>09/07/2017 13:04:03</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.magnific-popup.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.mb.YTPlayer.min.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/assets/jquery.sticky.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/morphext.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/owl.carousel.min.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/assets/particles-app.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/particles.min.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/assets/smooth-scroll.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/typed.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/vendor/jquery-1.12.0.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/vendor/modernizr-2.8.3.min.js">
+      <publishTime>09/05/2017 16:14:01</publishTime>
+    </File>
+    <File Include="assets/js/assets/waypoints.min.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/assets/wow.min.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/custom.js">
+      <publishTime>09/08/2017 09:39:57</publishTime>
+    </File>
+    <File Include="assets/js/extra-pages.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/js/plugins.js">
+      <publishTime>09/05/2017 16:14:00</publishTime>
+    </File>
+    <File Include="assets/sass/style.css.map">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/sass/style.scss">
+      <publishTime>09/07/2017 21:49:33</publishTime>
+    </File>
+    <File Include="assets/sass/_colors.scss">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/sass/_config.scss">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/sass/_mixin.scss">
+      <publishTime>09/05/2017 16:13:59</publishTime>
+    </File>
+    <File Include="assets/send.php">
+      <publishTime>09/05/2017 16:13:57</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/jdean-portfolio.dll">
+      <publishTime>09/08/2017 16:11:22</publishTime>
+    </File>
+    <File Include="bin/jdean-portfolio.pdb">
+      <publishTime>09/08/2017 16:11:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 03:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/07/2017 09:20:54</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCore.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreDefault.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreDjango.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreEclipse.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreEmacs.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreFadeToGrey.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreMDUltra.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreMidnight.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shCoreRDark.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeDefault.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeDjango.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeEclipse.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeEmacs.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeFadeToGrey.css">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeMDUltra.css">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeMidnight.css">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Content/SyntaxHighlighter/shThemeRDark.css">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/05/2017 16:19:45</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/06/2017 16:09:36</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/05/2017 16:19:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/05/2017 16:19:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/05/2017 16:19:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/05/2017 16:19:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/05/2017 16:19:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/05/2017 16:20:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/05/2017 16:20:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/05/2017 16:20:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/05/2017 16:20:02</publishTime>
+    </File>
+    <File Include="Scripts/jSporfolio.js">
+      <publishTime>09/08/2017 15:56:33</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/05/2017 16:20:15</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shAutoloader.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushAppleScript.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushAS3.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushBash.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushColdFusion.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushCpp.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushCSharp.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushCss.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushDelphi.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushDiff.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushErlang.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushGroovy.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushJava.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushJavaFX.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushJScript.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushPerl.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushPhp.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushPlain.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushPowerShell.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushPython.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushRuby.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushSass.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushScala.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushSql.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushVb.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shBrushXml.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shCore.js">
+      <publishTime>09/06/2017 16:09:35</publishTime>
+    </File>
+    <File Include="Scripts/SyntaxHighlighter/shLegacy.js">
+      <publishTime>09/06/2017 16:09:34</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/08/2017 15:50:14</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/05/2017 16:19:31</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/05/2017 16:19:43</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/05/2017 16:19:44</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/05/2017 16:19:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/08/2017 16:04:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
