@@ -832,7 +832,7 @@ input.main-search-input:-ms-input-placeholder {
    ======================= */
 .services {
     padding: 130px 0;
-    background: #F4F4F4;
+    background: #FFFFFF;
 }
 
 .services .service-block {
@@ -942,6 +942,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .services .service-block:hover p {
     color: #fff;
+    cursor:pointer;
 }
 
 .services .service-block button{
@@ -951,11 +952,14 @@ input.main-search-input:-ms-input-placeholder {
 
 }
 
+
+
 /* =========================
    Work Gallery
    ======================= */
 .works {
     padding: 130px 0 115px 0;
+    background: #F4F4F4;
 }
 
 .works .works-gallery ul.work-filter {
@@ -1061,6 +1065,10 @@ input.main-search-input:-ms-input-placeholder {
     visibility: visible;
     opacity: 1;
     transform: scale(1) rotateY(0);
+}
+
+.works .service-block:hover p {
+    cursor:pointer;
 }
 
 /* =========================

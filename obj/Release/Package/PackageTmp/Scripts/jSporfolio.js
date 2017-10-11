@@ -61,7 +61,7 @@ function fizzbFunction() {
 //problem 4: Palindrome
 
 function getPal() {
-    var possiblePal = document.getElementById("pd1").value;
+    var possiblePal = document.getElementById("inputPal").value;
     var splitPal = possiblePal.split("");
     var reversePal = splitPal.reverse().join("");
     if (possiblePal == reversePal) {
@@ -72,4 +72,43 @@ function getPal() {
     }
 }
 
+
+//clear 
+function Clear() {
+    //palindrome
+    $("#inputPal").val("");
+    $("#showPal").html("");
+    //factorial
+    $("#input2").val("");
+    $("#showFactr").html("");
+    $("#myDigit").html("");
+    //math program
+    $("#input").val("");
+    $("#showMean").html("");
+    $("#showSum").html("");
+    $("#showProd").html("");
+    $("#showMax").html("");
+    $("#showMin").html("");
+    //fizzbuzz
+    $("#fb1").val("");
+    $("#fb2").val("");
+    $("#showFB").html("");
+}
+
+
+
+$('#modalPal').on('hidden.bs.modal', function () {
+    Clear();
+})
+//factorial
+$('#modalFact').on('hidden.bs.modal', function () {
+    Clear();
+})
+// fizzbuzz
+$('#modalFB').on('hidden.bs.modal', function () {
+    Clear();
+})
+$('#myModal').on('hidden.bs.modal', function () {
+    Clear();
+})
 
